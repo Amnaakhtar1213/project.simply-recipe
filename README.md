@@ -1,7 +1,7 @@
 ## SIMPLE RECIPES
 
 This website consist of many famous dishes of PAKISTAN.It is a simple **HTML**, **CSS** project .But i add a little bit of **JAVASCRIPT** to toggle the button.
-I also includ recipe of dishes step by step.I also design a navbar on the top of page.In **CSS** i work on resposiveness of pages that how it looks on different screens.
+I also includ recipe step by step.I also design a navbar on the top of page.In **CSS** i work on resposiveness of pages to look that how it looks on different screens.
 
 ---
 
