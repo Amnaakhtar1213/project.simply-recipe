@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-6.webp"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Chicken Biryani</h2>
+            <p>
+              Firstly take a 1Kg chicken.Wash it throughly. Marinate it with yogurt, salt, red chilli, turmeric, lemons, food colour, ginger-garlic paste, and more spices to enhance flavours.
+              On the Other side take 1Kg basmati Rice, wash it 2,3 time with clean water.
+              Now take a big pot filled with water.Add some salt for taste.
+              On the other hand add some oil in the pot and then the marinated chicken and cook it well.
+              After boiling rice and cook chicken well.
+              Now take another pot, In this stage add layers of rice and meat, one layer of rice and one layer of meat. 
+              Then cover the pot and seal it for 10 min.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">Salad</a>
+              <a href="tag-template.html">breakfast</a>
+              <a href="tag-template.html">Lunch</a>
+              <a href="tag-template.html">Dinner</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                1Kg meat and marinate it with salt, red chilli, yogurt and other spices.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Take 1kg basmati rice and wash it 2, 3 time with clean water.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Boil the rice and cook the marinated chicken in oil. 
+                after cooking it well. Add layers of rice and chicken one by one and cover the pot for 15 min on low flame.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1Kg chicken</p>
+              <p class="single-ingredient">1Kg Basmati rice</p>
+              <p class="single-ingredient">other spices for marination</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Large Heavy Pot With Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://www.johnsmilga.com/">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
