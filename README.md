@@ -24,7 +24,11 @@ I also includes recipe step by step.I also design a navbar on the top of page.In
 ## How to run
 -----------------------------
 
+## LIVE DEMO 
 
+- [Click here for live-demo](https://amnaakhtar1213.github.io/project.simply-recipe/)
+
+-------------------------------------
 
 ## Clone this repository
 ```bash
