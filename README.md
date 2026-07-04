@@ -1,7 +1,7 @@
 ## SIMPLE RECIPES
 
 This website consist of many famous dishes of PAKISTAN.It is a simple **HTML**, **CSS** project .But i add a little bit of **JAVASCRIPT** to toggle the button.
-I also includ recipe step by step.I also design a navbar on the top of page.In **CSS** i work on resposiveness of pages to look that how it looks on different screens.
+I also includes recipe step by step.I also design a navbar on the top of page.In **CSS** i work on responsiveness of pages to look that how it looks on different screens.
 
 ---
 
@@ -15,16 +15,17 @@ I also includ recipe step by step.I also design a navbar on the top of page.In *
 
 ## Technology used
 
--   **HTML**    &nbsp; for structuring
--   **CSS**     &nbsp;  for styling
--   **JavaScript**     &nbsp;   for toggle button
+-   **HTML**   
+-   **CSS**    
+-   **JavaScript**    
   
 ---
 
 ## How to run
+-----------------------------
 
-Clone this repository
-[Click here to view on GitHub](https://github.com/Amnaakhtar1213/project.simply-recipe)
 
+
+## Clone this repository
 ```bash
 git clone "https://github.com/Amnaakhtar1213/project.simply-recipe.git"
